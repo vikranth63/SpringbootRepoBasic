@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Vikranth sample Springboot App CourseAPI
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: velegv
+Implementation-Vendor-Id: com.vikranth.springbootBasicApp
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/couse-api/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
