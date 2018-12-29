@@ -1,14 +1,10 @@
-package com.vikranth.springbootApp.controller;
+package com.vikranth.springbootApp.Topic;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.vikranth.springbootApp.resources.Topic;
-import com.vikranth.springbootApp.resources.TopicRepository;
 
 @Service
 public class TopicService {

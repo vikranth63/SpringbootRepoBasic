@@ -1,4 +1,4 @@
-package com.vikranth.springbootApp.resources;
+package com.vikranth.springbootApp.Topic;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,0 +1,6 @@
+com\vikranth\springbootApp\CourseApiApp.class
+com\vikranth\springbootApp\controller\TopicController.class
+com\vikranth\springbootApp\resources\Topic.class
+com\vikranth\springbootApp\controller\TopicService.class
+com\vikranth\springbootApp\resources\TopicRepository.class
+com\vikranth\springbootApp\resources\Course.class

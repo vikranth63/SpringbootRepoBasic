@@ -1,10 +1,10 @@
-package com.vikranth.springbootApp.resources;
+package com.vikranth.springbootApp.Topic;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Course {
+public class Topic {
 	
 	@Id
 	private String id;
@@ -14,7 +14,7 @@ public class Course {
 	/**
 	 * Constructor
 	 */
-	public Course() {
+	public Topic() {
 
 	}
 	
@@ -23,7 +23,7 @@ public class Course {
 	 * @param name
 	 * @param description
 	 */
-	public Course(String id, String name, String description) {
+	public Topic(String id, String name, String description) {
 		super();
 		this.id = id;
 		this.name = name;

@@ -1,4 +1,4 @@
-package com.vikranth.springbootApp.controller;
+package com.vikranth.springbootApp.Topic;
 
 import java.util.List;
 
@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.vikranth.springbootApp.resources.Topic;
 
 @RestController
 public class TopicController {
