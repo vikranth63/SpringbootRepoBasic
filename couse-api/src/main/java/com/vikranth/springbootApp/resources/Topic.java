@@ -1,4 +1,4 @@
-package com.vikranth.springbootApp.topic;
+package com.vikranth.springbootApp.resources;
 
 public class Topic {
 	
