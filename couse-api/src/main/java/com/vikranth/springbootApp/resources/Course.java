@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Topic {
+public class Course {
 	
 	@Id
 	private String id;
@@ -14,7 +14,7 @@ public class Topic {
 	/**
 	 * Constructor
 	 */
-	public Topic() {
+	public Course() {
 
 	}
 	
@@ -23,7 +23,7 @@ public class Topic {
 	 * @param name
 	 * @param description
 	 */
-	public Topic(String id, String name, String description) {
+	public Course(String id, String name, String description) {
 		super();
 		this.id = id;
 		this.name = name;
