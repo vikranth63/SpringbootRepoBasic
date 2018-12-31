@@ -1,37 +1,26 @@
-package com.vikranth.springbootApp.Course;
+package com.vikranth.springbootApp.Lesson;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import com.vikranth.springbootApp.Course.Course;
 import com.vikranth.springbootApp.Topic.Topic;
 
 @Entity
-public class Course {
+public class Lesson {
 
 	@Id
 	private String id;
 	private String name;
 	private String description;
 	@ManyToOne
-    private Topic topic;
+    private Course course;
 	/**
 	 * Constructor
 	 */
-	public Course() {
+	public Lesson() {
 
-	}
-	
-	/**
-	 * @param id
-	 * @param name
-	 * @param description
-	 */
-	public Course(String id, String name, String description) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.description = description;
 	}
 
 	/**
@@ -39,12 +28,12 @@ public class Course {
 	 * @param name
 	 * @param description
 	 */
-	public Course(String id, String name, String description, String topic) {
+	public Lesson(String id, String name, String description, String course) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;
-		this.topic = new Topic(topic,"","");
+		this.course = new Course(course,"","");
 	}
 
 	/**
@@ -93,17 +82,17 @@ public class Course {
 	}
 
 	/**
-	 * @return the topic
+	 * @return the course
 	 */
-	public Topic getTopic() {
-		return topic;
+	public Course getCourse() {
+		return course;
 	}
 
 	/**
-	 * @param topic the topic to set
+	 * @param course the course to set
 	 */
-	public void setTopic(Topic topic) {
-		this.topic = topic;
+	public void setCourse(Course course) {
+		this.course = course;
 	}
 
 }
